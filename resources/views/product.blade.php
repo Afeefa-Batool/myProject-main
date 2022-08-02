@@ -11,27 +11,27 @@
         <div class="carousel-inner">
           <div class="carousel-item active banner1">
             <img class="d-block w-100" >
-          
+
           </div>
           <div class="carousel-item banner2">
             <img class="d-block w-100"  >
-          
-        
+
+
         </div>
           <div class="carousel-item banner3">
             <img class="d-block w-100">
-          
-        
+
+
         </div>
         <div class="carousel-item banner4 ">
             <img class="d-block w-100" >
-         
-        
+
+
         </div>
         <div class="carousel-item banner5">
             <img class="d-block w-100"  >
-           
-        
+
+
         </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -44,31 +44,16 @@
         </a>
       </div>
       {{-- .....fetching products...... --}}
-      {{-- <div class="trending-wrapper">
-        <h1 class="text-center mt-4 m-5">Trending Products</h1>
-        <div class="">
-          @foreach ($products as $item)
-          <div class="tredning-item">
-            <a href="detail/{{$item['id']}}">
-          <img class="trending-img" src="{{$item['gallery']}}">
-            <div class="">
-            <h3>{{$item['name']}}</h3>
-            </div>
-          </a>
-          </div>  
-          @endforeach
-        </div>
-      </div> --}}
+
       {{-- ......end fetchig products......  --}}
       <h1 class="text-center mt-4 m-5">Trending Products</h1>
      <div class="container">
-      {{-- <div class="container-fluid text-center"> --}}
 
       <div class="row">
         @foreach ($products as $item)
         <div class="col-lg-4 col-md-6 col-sm-12 p-2 ">
-          
-            <div class="card " style="width: 23rem;">
+
+            <div class="card  wow bounceInUp" style="width: 23rem;">
               <img class="card-img-top" src="{{$item['gallery']}}" alt="Card image cap" style="height:350px">
               <div class="card-body">
                 <h5 class="card-title">{{$item['name']}}</h5>
@@ -82,11 +67,11 @@
             </div>
           </div>
         @endforeach
-      
+
     </div>
-   
+
      </div>
-    
+
       {{-- ........................... --}}
 </div>
 @endsection
@@ -115,4 +100,3 @@
 
 
 
-  

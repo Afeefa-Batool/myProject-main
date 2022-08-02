@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ /* .....carasoul slider....... */
+ .banner1{
+    width:100%;
+    height: 100vh;
+    background-image: url('images/46.png');
+    background-size: cover;
+    background-position: center;
+}
+.banner2{
+    width:100%;
+    height: 100vh;
+
+    background-image:url('images/12.png');
+    background-size: cover;
+    background-position: center;
+}
+.banner3{
+    width:100%;
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(33,64,65,0.7)),url('https://images.squarespace-cdn.com/content/v1/55d7b33ee4b0e34ae6046129/1568311488913-G21930JZ9IMYSZESFM1O/White_Cherrie-Gold_Bokeh-Overlay-Cover.jpg?format=1000w');
+    background-size: cover;
+    background-position: center;
+}
+.banner4{
+    width:100%;
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(33,64,65,0.7)),url('https://images.squarespace-cdn.com/content/v1/55d7b33ee4b0e34ae6046129/1568311488913-G21930JZ9IMYSZESFM1O/White_Cherrie-Gold_Bokeh-Overlay-Cover.jpg?format=1000w');
+    background-size: cover;
+    background-position: center;
+}
+.banner5{
+    width:100%;
+    height: 100vh;
+
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(33,64,65,0.7)),url('https://images.squarespace-cdn.com/content/v1/55d7b33ee4b0e34ae6046129/1568311488913-G21930JZ9IMYSZESFM1O/White_Cherrie-Gold_Bokeh-Overlay-Cover.jpg?format=1000w');
+    background-size: cover;
+    background-position: center;
+}
+.cart-img{
+  height: 186px !important;
+    width: 50%;
+    border-radius: 8px;
+}
+.cart-text{
+  margin-top: 90px;
+}
+.jumbotron{
+  background-color: #D0E7F7;
+}
+.search-box{
+  width: 400px !important;
+}
+.description{
+  font-size: 20px;
+}
+/* .....products page..... */
+.text{
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.price{
+  margin-left: 146px;
+}
+.custom-product{
+  margin-top: 110px !important;
+}
+.detail-page{
+  margin-top: 110px !important;
+
+}
+.custom-login{
+  margin-top: 110px !important;
+
+}
+.page-footer{
+  background-color: #1a1b1d
+}
