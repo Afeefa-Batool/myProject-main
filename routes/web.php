@@ -20,20 +20,27 @@ use App\Http\Controllers\StripePaymentController;
 Route::get('/login', function () {
     return view('login');
 });
-
+Route::get('/', function () {
+    return view('product');
+});
 Route::get('/logout', function () {
     Session::forget('user');
     return redirect('/login');
 });
+Route::get('/about', function () {
+    return view('about');
+});
 
-
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 Route::post("/login",[UserController::class,'login']);
 Route::view("/register","register");
 Route::post("register",[UserController::class,'register']);
 Route::get("/redirect",[UserController::class,'redirect']);
 
-Route::get("/",[ProductController::class,'index']);
+Route::get("/shop",[ProductController::class,'index']);
 Route::get("detail/{id}",[ProductController::class,'detail']);
 // Route::get("/detail",[ProductController::class,'detail']);
 Route::get("search",[ProductController::class,'search']);

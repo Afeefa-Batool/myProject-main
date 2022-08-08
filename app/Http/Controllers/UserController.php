@@ -35,13 +35,42 @@ class UserController extends Controller
       return redirect("/login");
 
   }
- function redirect(){
-    $usertype=Auth::user()->usertype;
-    if($usertype=='1'){
-        return view('admin');
-    }else{
-        return view('product');
-    }
+ public function redirect(){
+    // $usertype=Auth::user()->usertype;
+    // if($usertype=='1'){
+    //     return view('admin');
+    // }else{
+    //     return view('product');
+    // }
+    if (Auth::check()) {
+		$user = Auth::user();
+		$userType = $user->usertype;
+		if ($userType === 2) {
+		    return view('admin');
+		} elseif ($userType === 0 ) {
+		    return view('product');
+		}
+
+	}
   }
+
+
+// ......................
+
+// public function redirect()
+// {
+//     if (auth()->user() && auth()->user()->usertype == '1')
+//     {
+//         return redirect('admin');
+//     }
+//     else{
+//         return view('product');
+//     }
+// }
+
+
+
+
+
 
 }

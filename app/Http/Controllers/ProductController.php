@@ -14,10 +14,15 @@ use Illuminate\Support\Facades\DB;
 class ProductController extends Controller
 {
     //
-   function index()
+//    function index()
+//     {
+//        $data= Product::all();
+//        return view('product',['products'=>$data]);
+//     }
+    function index()
     {
        $data= Product::all();
-       return view('product',['products'=>$data]);
+       return view('shop',['products'=>$data]);
     }
     function detail($id)
     {
@@ -31,7 +36,7 @@ class ProductController extends Controller
     }
     function addToCart(Request $req)
     {
-     
+
         if($req->session()->has('user'))
         {
             $cart= new Cart;
@@ -76,8 +81,8 @@ class ProductController extends Controller
           ->join('products','cart.product_id','products.id')
           ->where('cart.user_id',$userId)
           ->sum('products.price');
- 
-          return view('OrderNow',['total'=>$total]);  
+
+          return view('OrderNow',['total'=>$total]);
     }
     function orderPlace(Request $req)
     {
@@ -107,8 +112,8 @@ class ProductController extends Controller
           ->join('products','orders.order_id','products.id')
           ->where('orders.user_id',$userId)
           ->get();
- 
-          return view('myorder',['orders'=>$orders]); 
+
+          return view('myorder',['orders'=>$orders]);
     }
 }
 
