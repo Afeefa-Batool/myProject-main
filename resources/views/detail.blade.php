@@ -8,7 +8,7 @@
         <div class="row">
 
             <div class="col-sm-6">
-                <img class=" mt-3 detail-img" src="{{$product['gallery']}}" alt="">
+                <img class=" mt-3 " src="{{$product['gallery']}}" alt="">
             </div>
             <div class="col-sm-6 mt-5">
                 <a href="/" class="btn btn-secondary">Go Back</a>
@@ -29,12 +29,12 @@
                 </div>
                 <br><br>
                 </div>
-                   
+
             </div>
     </div>
 
 </div>
-         
+
 </div>
 @endsection
 
@@ -62,4 +62,3 @@
 
 
 
-  

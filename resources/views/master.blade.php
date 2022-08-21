@@ -20,7 +20,15 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     </head>
+    <!-- Basic stylesheet -->
+<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+
+<!-- Default Theme -->
+<link rel="stylesheet" href="owl-carousel/owl.theme.css">
+<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="css/register.css">
 <link rel="stylesheet" href="style.css">
+
 
 <body>
     {{ View::make('header') }}
@@ -36,43 +44,17 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
- <script>
-     $('.slider').slick({
-   dots: true,
-   infinite: true,
-   speed: 300,
-   slidesToShow: 3,
-   slidesToScroll: 1,
-   responsive: [
-     {
-       breakpoint: 1024,
-       settings: {
-         slidesToShow: 3,
-         slidesToScroll: 3,
-         infinite: true,
-         dots: true
-       }
-     },
-     {
-       breakpoint: 600,
-       settings: {
-         slidesToShow: 2,
-         slidesToScroll: 2
+     <script src="jquery-1.9.1.min.js"></script>
 
-       }
-     },
-     {
-       breakpoint: 480,
-       settings: {
-         slidesToShow: 1,
-         slidesToScroll: 1
-       }
-     }
-     // You can unslick at a given breakpoint now by adding:
-     // settings: "unslick"
-     // instead of a settings object
-   ]
- });
+     <!-- Include js plugin -->
+     <script src="owl-carousel/owl.carousel.js"></script>
+ <script>
+
+$(document).ready(function() {
+
+ $(".owl-carousel").owlCarousel();
+
+});
  </script>
 
 

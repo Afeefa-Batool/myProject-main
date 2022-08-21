@@ -44,131 +44,124 @@
     {{-- featured products --}}
     <h1 class="text-center  mt-3">FEATURED CATEGORIES</h1>
     <p class="text-center ">Shop our extensive range of luxuries at Zeesy No 1 Online Store.
+    <div class="owl-carousel owl-theme container">
+        <div class="">
+            <div class="card border-0" style="width: 18rem">
+                <img class="card-img-top card-img" src="images/a.jpg" alt="Card image cap" />
 
-            <div class="container">
-              <div class="row slider">
-                <div class="col-md-4">
-                  <div class="card border-0" style="width: 18rem">
-                    <img class="card-img-top card-img" src="images/a.jpg" alt="Card image cap" />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Card title</h5>
-                      <p class="card-tex text-center">
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-margin">
-                  <div class="card border-0" style="width: 18rem">
-                    <img class="card-img-top card-img" src="images/b.jpg" alt="Card image cap" />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Card title</h5>
-                      <p class="card-text text-center">
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-margin">
-                  <div class="card border-0" style="width: 18rem">
-                    <img class="card-img-top card-img" src="images/c.jpg" alt="Card image cap" />
-                    <div class="card-body">
-                      <h5 class="card-title text-center">Card title</h5>
-                      <p class="card-text text-center">
-
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-margin">
-                    <div class="card border-0" style="width: 18rem">
-                      <img class="card-img-top card-img" src="images/d.jpg" alt="Card image cap" />
-                      <div class="card-body">
-                        <h5 class="card-title text-center">Card title</h5>
-                        <p class="card-text text-center">
-
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-margin">
-                    <div class="card border-0" style="width: 18rem">
-                      <img class="card-img-top card-img" src="images/e.jpg" alt="Card image cap" />
-                      <div class="card-body">
-                        <h5 class="card-title text-center">Card title</h5>
-                        <p class="card-text text-center">
-
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card-margin">
-                    <div class="card border-0" style="width: 18rem">
-                      <img class="card-img-top card-img" src="images/f.jpg" alt="Card image cap" />
-                      <div class="card-body">
-                        <h5 class="card-title text-center">Card title</h5>
-                        <p class="card-text text-center">
-
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-              </div>
             </div>
-            {{-- BRIDAL SETS --}}
-            <h1 class="text-center  ">BRIDAL SETS</h1>
-            <p class="text-center ">Shop our extensive range of luxuries at Zeesy No 1 Online Store.
-                <div class="container d-flex align-items-center justify-content-center flex-wrap">
-                    <div class="box">
-                        <div class="body">
-                            <div class="imgContainer">
-                                <img src="images/l.jpg" alt="">
-                            </div>
-                            <div class="content d-flex flex-column align-items-center justify-content-center">
-                                <div>
-                                    <h3 class="text-white fs-5">Post Title</h3>
-                                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="body">
-                            <div class="imgContainer">
-                                <img src="images/m.jpg" alt="">
-                            </div>
-                            <div class="content d-flex flex-column align-items-center justify-content-center">
-                                <div>
-                                    <h3 class="text-white fs-5">Post Title</h3>
-                                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <div class="body">
-                            <div class="imgContainer">
-                                <img src="images/n.jpg" alt="">
-                            </div>
-                            <div class="content d-flex flex-column align-items-center justify-content-center">
-                                <div>
-                                    <h3 class="text-white fs-5">Post Title</h3>
-                                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                                </div>
-                            </div>
-                        </div>
+        </div>
+        <div>
+            <div class="card border-0" style="width: 18rem">
+                <img class="card-img-top card-img" src="images/b.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+        <div>
+            <div class="card border-0" style="width: 18rem">
+                <img class="card-img-top card-img" src="images/c.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+        <div>
+            <div class="card border-0" style="width: 18rem">
+                <img class="card-img-top card-img" src="images/d.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+        <div>
+            <div class="card border-0" style="width: 18rem">
+                <img class="card-img-top card-img" src="images/e.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+        <div>
+            <div class="card border-0" style="width: 18rem">
+                <img class="card-img-top card-img" src="images/f.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+        <div>
+            <div class="card border-0" style="width: 18rem">
+                <img class="card-img-top card-img" src="images/g.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+        <div>
+            <div class="card border-0" style="width: 18rem">
+                <img class="card-img-top card-img" src="images/h.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+        <div>
+            <div class="card border-0" style="width: 18rem">
+                <img class="card-img-top card-img" src="images/i.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+        <div>
+            <div class="card border-0" style="width: 18rem">
+                <img class="card-img-top card-img" src="images/j.jpg" alt="Card image cap" />
+
+            </div>
+        </div>
+
+    </div>
+
+    {{-- BRIDAL SETS --}}
+    <h1 class="text-center  ">BRIDAL SETS</h1>
+    <p class="text-center ">Shop our extensive range of luxuries at Zeesy No 1 Online Store.
+    <div class="container d-flex align-items-center justify-content-center flex-wrap">
+        <div class="box">
+            <div class="body">
+                <div class="imgContainer">
+                    <img src="images/l.jpg" alt="">
+                </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white fs-5">Post Title</h3>
+                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed
+                            cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
                     </div>
                 </div>
-                {{-- EARRINGS --}}
-                <h1 class="text-center  ">EARRINGS</h1>
-                <p class="text-center ">Shop our extensive range of luxuries at Zeesy No 1 Online Store.
+            </div>
+        </div>
+        <div class="box">
+            <div class="body">
+                <div class="imgContainer">
+                    <img src="images/m.jpg" alt="">
+                </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white fs-5">Post Title</h3>
+                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed
+                            cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="body">
+                <div class="imgContainer">
+                    <img src="images/n.jpg" alt="">
+                </div>
+                <div class="content d-flex flex-column align-items-center justify-content-center">
+                    <div>
+                        <h3 class="text-white fs-5">Post Title</h3>
+                        <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed
+                            cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{-- EARRINGS --}}
+    <h1 class="text-center  ">EARRINGS</h1>
+    <p class="text-center ">Shop our extensive range of luxuries at Zeesy No 1 Online Store.
 
 
 
-                    {{-- BANGLES --}}
-                    <h1 class="text-center  ">BANGLES</h1>
-                    <p class="text-center ">Shop our extensive range of luxuries at Zeesy No 1 Online Store.
-
-
-
-@endsection
+        {{-- BANGLES --}}
+    <h1 class="text-center  ">BANGLES</h1>
+    <p class="text-center ">Shop our extensive range of luxuries at Zeesy No 1 Online Store.
+    @endsection

@@ -9,7 +9,7 @@
  .banner1{
     width:100px;
     height: 100vh;
-    background-image: url('images/x.jpg');
+    background-image: url('images/1-7.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -130,13 +130,12 @@
     letter-spacing: 1px;
 }
 /* earings section */
-
-.cart-img{
+ .cart-img{
   height: 186px !important;
     width: 50%;
     border-radius: 8px;
 }
-/* .cart-text{
+.cart-text{
   margin-top: 90px;
 }
 .jumbotron{
@@ -144,10 +143,10 @@
 }
 .search-box{
   width: 400px !important;
-} */
-/* .description{
+}
+ .description{
   font-size: 20px;
-} */
+}
 /* .....products page..... */
 .text{
   overflow: hidden;
@@ -157,9 +156,9 @@
 .price{
   margin-left: 146px;
 }
-/* .carasoul-height{
+.carasoul-height{
 height: 10px;
-} */
+}
 .detail-page{
   margin-top: 110px !important;
 
